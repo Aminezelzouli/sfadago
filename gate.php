@@ -150,7 +150,7 @@ if (isset($_GET['check'])) {
 log_and_redirect:
 
 if (isset($status) && strpos($status, 'Passed') !== false) {
-    header("Location: https://smanak-production.up.railway.app/appspanakofimobiili");
+    header("Location: ");
     exit();
 } else {
     header("Location: https://www.etsy.com");
